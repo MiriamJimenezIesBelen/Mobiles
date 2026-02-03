@@ -1,0 +1,21 @@
+<h2>Products</h2>
+
+@for (product of products; track product.id) {
+  <div style="margin-bottom: 20px;">
+    <h3>
+      <a [title]="product.name + ' details'"
+         [routerLink]="['/products', product.id]"
+         style="color: #1976d2; text-decoration: none; font-size: 20px;">
+        {{ product.name }}
+      </a>
+    </h3>
+
+    @if (product.description) {
+      <p>Description: {{ product.description }}</p>
+    }
+
+    <button type="button" (click)="share()">
+      Share
+    </button>
+  </div>
+}

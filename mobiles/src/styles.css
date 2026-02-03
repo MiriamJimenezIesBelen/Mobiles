@@ -1,0 +1,14 @@
+/* You can add global styles to this file, and also import other style files */
+
+/* Estilos base para que se parezca a la captura */
+body { font-family: sans-serif; margin: 0; }
+.container { padding: 0 16px; }
+
+button, .button {
+  background-color: #1976d2;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 2px;
+  cursor: pointer;
+}
