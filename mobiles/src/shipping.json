@@ -1,0 +1,17 @@
+[
+  {
+    "type": "Standard Shipping",
+    "price": 5.99,
+    "delivery": "5-7 business days"
+  },
+  {
+    "type": "Express Shipping",
+    "price": 12.99,
+    "delivery": "2-3 business days"
+  },
+  {
+    "type": "Overnight Shipping",
+    "price": 24.99,
+    "delivery": "Next business day"
+  }
+]

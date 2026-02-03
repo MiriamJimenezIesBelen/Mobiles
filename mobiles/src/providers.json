@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "TechGiant Electronics",
+    "description": "Leading manufacturer of premium smartphones and tablets",
+    "website": "https://techgiant.example.com",
+    "logo": "🏢",
+    "country": "USA"
+  },
+  {
+    "id": 2,
+    "name": "MobileWorks",
+    "description": "Innovative mobile device solutions for modern lifestyles",
+    "website": "https://mobileworks.example.com",
+    "logo": "📱",
+    "country": "South Korea"
+  },
+  {
+    "id": 3,
+    "name": "SmartPhone Plus",
+    "description": "Budget-friendly smartphones with premium features",
+    "website": "https://smartphoneplus.example.com",
+    "logo": "💎",
+    "country": "China"
+  }
+]
