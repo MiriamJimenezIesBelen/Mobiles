@@ -6,7 +6,10 @@
     "description": "A large phone with one of the best screens",
     "providerId": 1,
     "features": ["6.7\" OLED Display", "5G Connectivity", "Triple Camera System"],
-    "image": "📱"
+    "image": "📱",
+
+    "quantity": 3
+
   },
   {
     "id": 2,
@@ -15,7 +18,9 @@
     "description": "A great phone with one of the best cameras",
     "providerId": 2,
     "features": ["5.4\" Retina Display", "Ultra-wide Camera", "Long Battery Life"],
-    "image": "📲"
+    "image": "📲",
+
+    "quantity": 12
   },
   {
     "id": 3,
@@ -24,7 +29,9 @@
     "description": "A reliable phone with excellent performance",
     "providerId": 3,
     "features": ["6.1\" LCD Display", "Fast Charging", "Dual SIM Support"],
-    "image": "📞"
+    "image": "📞",
+
+    "quantity": 2
   },
   {
     "id": 4,
@@ -33,7 +40,9 @@
     "description": "Professional-grade phone with advanced features",
     "providerId": 1,
     "features": ["6.9\" ProMotion Display", "Cinematic Camera", "Titanium Frame"],
-    "image": "☎️"
+    "image": "☎️",
+
+    "quantity": 1
   },
   {
     "id": 5,
@@ -42,6 +51,8 @@
     "description": "Budget-friendly option with essential features",
     "providerId": 3,
     "features": ["5.8\" HD+ Display", "Dual Camera", "All-day Battery"],
-    "image": "📱"
+    "image": "📱",
+
+    "quantity": 5
   }
 ]

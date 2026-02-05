@@ -14,6 +14,24 @@
       <p>Description: {{ product.description }}</p>
     }
 
+    <!-- Añadimos a la pagina principal la cantidad disponible-->
+
+      <!-- Ponemos los colores segun la cantidad que tienen-->
+      <p [ngClass]="{
+      'verde' : product.quantity > 5,
+      'naranja' : product.quantity >= 1 && product.quantity <= 5,
+      'rojo' : product.quantity === 0
+      }">
+
+       Quantity: {{ product.quantity }}
+        <!-- Ponemos que si la cantidad del producto es igual a 0 salga agotado en rojo-->
+
+        <span *ngIf="product.quantity === 0" style="color:red"> Agotado</span>
+      </p>
+
+
+
+
     <button type="button" (click)="share()">
       Share
     </button>

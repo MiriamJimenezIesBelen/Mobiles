@@ -11,9 +11,10 @@ import { RouterLink } from '@angular/router';
 })
 export class ProductListComponent {
   products = [
-    { id: 1, name: 'Phone XL', price: 799, description: 'A large phone with one of the best screens' },
-    { id: 2, name: 'Phone Mini', price: 699, description: 'A great phone with one of the best cameras' },
-    { id: 3, name: 'Phone Standard', price: 299, description: '' }
+    // Añadimos la propiedad quantity
+    { id: 1, name: 'Phone XL', price: 799, description: 'A large phone with one of the best screens',quantity:0 },
+    { id: 2, name: 'Phone Mini', price: 699, description: 'A great phone with one of the best cameras',quantity:12 },
+    { id: 3, name: 'Phone Standard', price: 299, description: '',quantity:2 }
   ];
 
   share() {

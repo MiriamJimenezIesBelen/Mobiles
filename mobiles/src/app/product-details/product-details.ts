@@ -13,9 +13,9 @@ export class ProductDetailsComponent implements OnInit {
   product: any;
 
   products = [
-    { id: 1, name: 'Phone XL', price: 799, description: 'A large phone with one of the best screens' },
-    { id: 2, name: 'Phone Mini', price: 699, description: 'A great phone with one of the best cameras' },
-    { id: 3, name: 'Phone Standard', price: 299, description: '' }
+    { id: 1, name: 'Phone XL', price: 799, description: 'A large phone with one of the best screens',quantity:0 },
+    { id: 2, name: 'Phone Mini', price: 699, description: 'A great phone with one of the best cameras', quantity:12 },
+    { id: 3, name: 'Phone Standard', price: 299, description: '', quantity:2 }
   ];
 
   constructor(private route: ActivatedRoute) { }
@@ -31,5 +31,6 @@ export class ProductDetailsComponent implements OnInit {
 
   addToCart(product: any) {
     window.alert('Your product has been added to the cart!');
+    product.quantity = product.quantity - 1;
   }
 }
