@@ -20,7 +20,7 @@
       <span *ngIf="product.quantity === 0" style="color:red"> Agotado</span>
     </p>
 
-    <!-- Si la cantidad es igual a 0 , el boton esta deshabilitado y sale agotado -->
+    <!-- Si la cantidad es igual a 0 , el boton esta deshabilitado y sale  agotado -->
     <button type="button" class="btn-primary" (click)="addToCart(product)" [disabled]="product.quantity === 0" >
       <p>Buy</p>
       <p *ngIf="product.quantity === 0">Agotado</p>
